@@ -11,7 +11,7 @@ else
 fi
 
 echo "Checking for nvm..."
-if ! [ -z "$(nvm -v 2>/dev/null)" ]; then
+if ! [ -z "$(command -v nvm)" ]; then
     echo "nvm is not installed. Installing..."
     curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
     source ~/.bashrc
