@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # check if folder ~/dev/database exists
 if [ -d ~/dev/tryber ]; then
