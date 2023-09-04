@@ -5,3 +5,5 @@
 This script is intended to use in a linux environment. For Windows users, you need to execute it in a WSL 2 environment. Use this guide to setup it
 
 [Install WSL 2 on Windows](https://learn.microsoft.com/it-it/windows/wsl/install-manual)
+
+It is also recommended to install the new [Windows Terminal](https://learn.microsoft.com/it-it/windows/terminal/install) if not already installed
