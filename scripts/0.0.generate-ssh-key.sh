@@ -20,7 +20,7 @@ fi
 ./logger.sh "This is your SSH public key:"
 cat ~/.ssh/id_rsa.pub
 
-./logger.sh "Please add this key to your GitHub account."
+./logger.sh "Please add this key to your GitHub account. https://github.com/settings/keys"
 echo "Guide: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account"
 echo "Press any key to continue..."
 read -n 1 -s
