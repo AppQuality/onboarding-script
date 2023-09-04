@@ -20,7 +20,7 @@ if [ -d ~/dev/unguess/unguess-react ]; then
     echo "unguess React folder exists. Skipping..."
 else
     echo "Unguess React folder does not exist. Creating..."
-    git clone git@github.com:AppQuality/tyber-react.git ~/dev/unguess/unguess-react
+    git clone git@github.com:AppQuality/unguess-react.git ~/dev/unguess/unguess-react
 fi
 
 # check if folder ~/dev/unguess/unguess_wp_infrastructure exists
