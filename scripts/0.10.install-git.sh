@@ -21,7 +21,7 @@ else
 fi
 
 
-if [ -z "$(git ls-remote git@github.com:AppQuality/crowd_wp_platformasd.git 2>/dev/null)" ]; then
+if [ -z "$(git ls-remote git@github.com:AppQuality/crowd_wp_platform.git 2>/dev/null)" ]; then
     ./logger.sh "SSH key not found on GitHub. Run again this script and add your SSH key to GitHub."
     exit 1
 else
