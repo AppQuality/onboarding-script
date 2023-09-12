@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 set -e
 
 # Ask for the administrator password upfront and exit if not received
