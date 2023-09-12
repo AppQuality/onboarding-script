@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 echo "Checking for jq..."
 if ! [ -x "$(command -v jq)" ]; then

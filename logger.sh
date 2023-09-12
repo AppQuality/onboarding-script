@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Get length of $1
 STRLEN=${#1}

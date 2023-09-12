@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 echo "Checking for ssh-keygen..."
 if ! [ -x "$(command -v ssh-keygen)" ]; then
