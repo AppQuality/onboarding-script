@@ -2,7 +2,7 @@
 NODE_VERSION=16
 
 echo "Checking for nvm..."
-if ! [ -z "$(command -v nvm)" ]; then
+if ! [ -x "$(command -v nvm)" ]; then
     echo "nvm is not installed. Installing..."
     curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
     source ~/.nvm/nvm.sh
